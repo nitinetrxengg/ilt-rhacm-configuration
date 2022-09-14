@@ -7,7 +7,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/reconcile-rate: high
 spec:
-  pathname: https://HOST_PLACEHOLDER/USER_PLACEHOLDER/ilt-rhacm-configuration
+  pathname: https://gitea.apps.cluster-dgmq2.sandbox343.opentlc.com/lab-user/ilt-rhacm-configuration
   type: Git
   secretRef:
     name: ilt-gitea
