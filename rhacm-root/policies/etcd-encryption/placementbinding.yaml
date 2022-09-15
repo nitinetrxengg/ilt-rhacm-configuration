@@ -1,0 +1,14 @@
+---
+apiVersion: policy.open-cluster-management.io/v1
+kind: PlacementBinding
+metadata:
+  name: etcd-encryption-placement
+  namespace: acm-policies
+placementRef:
+  name: etcd-encryption-placement
+  apiGroup: apps.open-cluster-management.io
+  kind: PlacementRule
+subjects:
+  - name: etcd-encryption
+    apiGroup: policy.open-cluster-management.io
+    kind: Policy
